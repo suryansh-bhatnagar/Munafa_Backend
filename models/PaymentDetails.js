@@ -10,13 +10,11 @@ const PaymentDetailSchema = new mongoose.Schema(
         email: {
             type: String,
             required: true,
-            unique: true,
             trim: true
         },
         amount: {
             type: String,
             required: true,
-            unique: true,
             trim: true
         },
         payment_id: {
